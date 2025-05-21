@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.btn-all{
+    @apply btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl
+}
+}
+
+@layer utilities {
+    .btm-hover{
+        @apply bg-gray-200 border-b-2 hover:border-b-blue-600 p-4 hover:shadow-2xl
+    }
+}
+
+
+@layer base {
+    .span-tag {
+        @apply font-semibold text-gray-400
+    }
+}
