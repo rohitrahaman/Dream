@@ -117,10 +117,11 @@ function App() {
         </section>
         <section className=''>
  
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-6 lg:px-8 rounded-lg bg-blue-300 ">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-6 lg:px-8 rounded-lg dark ">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
+          
         
-          <h2 className="text-center text-2xl/9 font-bold tracking-tight text-gray-900 py-2 px-2">
+          <h2 className="text-center text-2xl/9 font-bold tracking-tight  py-2 px-2">
             Apply for Registration!
           </h2>
         </div>
@@ -128,7 +129,7 @@ function App() {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form action="#" method="POST" className="space-y-6">
             <div>
-              <label htmlFor="Name" className="block text-sm/6 font-medium text-gray-900">
+              <label htmlFor="Name" className="block text-sm/6 font-medium ">
                 Name
               </label>
               <div className="mt-2">
@@ -144,7 +145,7 @@ function App() {
 
             <div>
               <div className="flex items-center justify-between">
-                <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                <label htmlFor="password" className="block text-sm/6 font-medium ">
                   Phone Number
                 </label>
                 
@@ -164,7 +165,7 @@ function App() {
 
             <div>
               <div className="flex items-center justify-between">
-                <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                <label htmlFor="password" className="block text-sm/6 font-medium ">
                   Last Education
                 </label>
                 
@@ -180,7 +181,7 @@ function App() {
               </div>
             <div>
                <div className="flex items-center justify-between">
-                <label htmlFor="password" className="block text-sm/6 font-medium text-gray-900">
+                <label htmlFor="password" className="block text-sm/6 font-medium ">
                   Preferred Country
                 </label>
                 
@@ -199,6 +200,7 @@ function App() {
               <button type="submit" className="flex w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                 Submit</button>
             </div>
+            <div className='text-xs'><span>Dark-mode</span></div>
           </form>
 
           

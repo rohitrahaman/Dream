@@ -6,6 +6,9 @@
 .btn-all{
     @apply btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl
 }
+.dark{
+    @apply bg-blue-300 text-gray-900 dark:bg-gray-500 dark:text-white
+}
 }
 
 @layer utilities {
