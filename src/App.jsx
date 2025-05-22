@@ -29,7 +29,7 @@ function App() {
         <div className='head-top-flex gap-40 items-center'>
           <div className=''>
             <div className='h-28 w-80'>
-              <img className='items-center' src="img/logo-large-1.png" alt="" />
+              <img className='items-center' src="./img/logo-large-1.png" alt="" />
             </div>
             
           </div>
@@ -105,14 +105,14 @@ function App() {
         <section>
         <div className='py-10 px-10'>
           <div className='place-items-center'>
-          <img className='w-64' src="img/logo-large-1.png" alt="" />
+          <img className='w-64' src="./img/logo-large-1.png" alt="" />
         </div>
         </div>
       </section>
       <div className='flex justify-center gap-5 py-10 px-10'>
         <section>
           <div className='min-h-full items-center py-20'>
-            <img className='max-h-80'src="img/Expo.jpg" alt="" />
+            <img className='max-h-80'src="./img/Expo.jpg" alt="" />
           </div>
         </section>
         <section className=''>
@@ -215,7 +215,7 @@ function App() {
       <section>
         <div className='py-10 px-10'>
           <div className='place-items-center'>
-          <img className='w-64 h-10'src="img/we.png" alt="" />
+          <img className='w-64 h-10'src="./img/we.png" alt="" />
         </div>
         </div>
       </section>
@@ -295,7 +295,7 @@ function App() {
       <div className='flex flex-col lg:flex-row justify-between gap-10 px-5 lg:px-10'>
   <section className='w-full lg:w-1/4 mb-6'>
     <div>
-      <img className='h-20 max-w-60' src="img/logo-large-1.png" alt="Company Logo" />
+      <img className='h-20 max-w-60' src="./img/logo-large-1.png" alt="Company Logo" />
       <div className='mt-4 text-sm'>
         <p>
           We are a renowned education consultancy for prospective students who would like to study in Canada, UK, USA, Australia, Sweden, Netherlands, Denmark & other European Countries.
