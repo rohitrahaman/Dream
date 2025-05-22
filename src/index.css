@@ -3,12 +3,19 @@
 @tailwind utilities;
 
 @layer components {
-.btn-all{
-    @apply btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl
-}
-.dark{
-    @apply bg-blue-300 text-gray-900 dark:bg-gray-500 dark:text-white
-}
+    .btn-all{
+        @apply btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl
+    }
+    .dark{
+        @apply  dark:bg-gray-500 dark:text-white
+    }
+    .head-top-aline{
+        @apply justify-between items-center text-white font-semibold 
+    }
+    .head-top-flex{
+        @apply flex lg:flex-row flex-col
+    }
+
 }
 
 @layer utilities {
@@ -21,5 +28,8 @@
 @layer base {
     .span-tag {
         @apply font-semibold text-gray-400
+    }
+    .head-top{
+        @apply lg:h-12 h-auto w-full px-4
     }
 }
