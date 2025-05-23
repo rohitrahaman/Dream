@@ -7,6 +7,7 @@ function App() {
     <div>
       
     <header className="">
+      {/* head top */}
       <section className="bg-blue-950">
         <div className="head-top-aline head-top head-top-flex">
           <div className="">
@@ -25,6 +26,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* head middle */}
       <section className='py-4 px-4 font-semibold text-gray-600 bg-gray-300'>
         <div className='head-top-flex gap-40 items-center'>
           <div className=''>
@@ -68,6 +71,8 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* head last */}
       <section>
         <div className='bg-blue-950 px-6 py-2 w-[98%] mx-auto rounded-lg'>
           <div className='head-top-flex justify-between text-white font-bold lg:h-10'>
@@ -97,19 +102,18 @@ function App() {
         </div>
         </div>
       </section>
-
-
     </header>
     <main>
-      <div>
+      {/* body-1 top */}
+      <div className=''>
         <section>
         <div className='py-10 px-10'>
           <div className='place-items-center'>
           <img className='w-64' src="./img/logo-large-1.png" alt="" />
         </div>
         </div>
-      </section>
-      <div className='flex justify-center gap-5 py-10 px-10'>
+
+        <div className='flex flex-col lg:flex-row justify-center gap-5 py-10 px-10'>
         <section>
           <div className='min-h-full items-center py-20'>
             <img className='max-h-80'src="./img/Expo.jpg" alt="" />
@@ -119,8 +123,6 @@ function App() {
  
       <div className="bg-blue-300 text-gray-900 flex min-h-full flex-1 flex-col justify-center px-6 py-6 lg:px-8 rounded-lg dark ">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
-          
-        
           <h2 className="text-center text-2xl/9 font-bold tracking-tight  py-2 px-2">
             Apply for Registration!
           </h2>
@@ -209,9 +211,10 @@ function App() {
       
         </section>
       </div>
-      
+      </section>
       </div>
- 
+
+     {/* body-2 top */}
       <section>
         <div className='py-10 px-10'>
           <div className='place-items-center'>
@@ -219,6 +222,8 @@ function App() {
         </div>
         </div>
       </section>
+
+      {/* body-2 last */}
       <section className=''>
         <div className='px-32'>
           <div className='head-top-flex justify-between items-center px-5 py-5'>
@@ -287,12 +292,13 @@ function App() {
         </div>
         </div>
       </section>
-        
-        
-     
     </main>
+
+
     <footer className=' text-black font-medium  w-full h-60'>
       <div className='flex flex-col lg:flex-row justify-between gap-10 px-5 lg:px-10'>
+
+        {/* footer top */}
   <section className='w-full lg:w-1/4 mb-6'>
     <div>
       <img className='h-20 max-w-60' src="./img/logo-large-1.png" alt="Company Logo" />
@@ -345,6 +351,8 @@ function App() {
   </section>
       </div>
 
+
+{/* footer last */}
       <section >
         <div className='bg-blue-900 h-10 text-sm justify-between items-center head-top-flex px-10'>
           <span>© 2023 Dream Study Int.. Designed By *hirebirds Team.</span>
